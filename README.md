@@ -90,6 +90,8 @@ So that we have the same numbers of samples from each group:
 
 ## Sentiment Analysis: Identifying Five-star Reviews
 
+The goal of this project is to build a model to predict positive sentiments from the review texts. The label is binary - whether 5-stars or not, whereas the feature is the text vectors from each review.
+
 ### Logistic Regression with `sklearn`
 
 ```python
