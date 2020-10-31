@@ -2,6 +2,8 @@
 
 ## Summary
 
+I did a sentiment analysis with the review texts from Yelp. I tried two different apporaches - one is Logistic Regression with `sklearn`, and the other is Artificial Nueral Network with `TensorFlow`. The Logistic Regression model performs better and more efficiently than the ANN model in this case, with an accuracy score of 0.87 from the former model, and 0.83 from the later. It took a lot more time to fine tune the hyperparameters of the ANN model to achieve this performance. This is an instance where cooler(?) methods don't necessarily perform better, and we need to look for the most efficient means to reach our goals.
+
 ## Outline
 
   * [Data from Yelp](#data-from-yelp)
@@ -13,6 +15,12 @@
   * [Conclusion: Logsitic Regression Works Better!](#conclusion-logistic-regression-works-better)
 
 ## Data from [Yelp](https://www.yelp.com/dataset) 
+
+Yelp provides data from their users free of charge, including information about reviews, business, pictures, and in different metropolitan areas. 
+
+<img src="https://github.com/ychu19/yelp-review-sentiment-analysis/blob/main/yelp_page.jpg" width='600px'>
+
+In this project, I did a sentiment analysis with the review texts from Yelp. I tried two different apporaches - one is Logistic Regression with `sklearn`, and the other is Artificial Nueral Network with `TensorFlow`. 
 
 ### Set-up
 
